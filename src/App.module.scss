@@ -1,0 +1,13 @@
+.App {
+  max-width: 55%;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 95vh;
+  @media only screen and (max-width: 767px) {
+    max-width: 90%;
+  }
+}
